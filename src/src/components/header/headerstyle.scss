@@ -1,0 +1,102 @@
+.NavContainer {
+  position: fixed;
+  z-index: 2;
+
+  .Logo {
+    margin: 2em;
+
+    .graphic {
+      width: 3rem;
+    }
+  }
+  .row {
+    align-items: flex-end;
+  }
+
+  .Nav-button {
+    align-self: center;
+    margin: 2em 1em;
+    .Nav-Button-Inside {
+      margin: 1rem;
+      margin-left: 1rem;
+      color: white;
+      .style {
+        color: whitesmoke;
+      }
+      .style:hover {
+        color: yellow;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .NavContainer {
+    position: fixed;
+    z-index: 2;
+
+    .Logo {
+      margin: 1em;
+      margin-left: 2rem !important;
+      .graphic {
+        width: 3rem;
+      }
+    }
+    .row {
+      align-items: flex-end;
+    }
+
+    .Nav-button {
+      margin: 0.5rem 0.5rem 0.5rem !important;
+      .Nav-Button-Inside {
+        margin: 0.6rem;
+        margin-left: 0.6rem;
+        color: white;
+        .style {
+          color: whitesmoke;
+          font-size: 1rem;
+        }
+        .style:hover {
+          color: yellow;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .NavContainer {
+    position: fixed;
+    z-index: 2;
+
+    .Logo {
+      margin: 1em;
+      margin-left: 3rem !important;
+      .graphic {
+        width: 3rem;
+      }
+    }
+    .row {
+      align-items: flex-end;
+    }
+
+    .Nav-button {
+      margin: 0.5rem 0.5rem 0.5rem !important;
+      .Nav-Button-Inside {
+        margin: 0.5rem;
+        margin-left: 0.5rem;
+        color: white;
+        .style {
+          color: whitesmoke;
+          font-size: 0.5rem;
+        }
+        .style:hover {
+          color: yellow;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

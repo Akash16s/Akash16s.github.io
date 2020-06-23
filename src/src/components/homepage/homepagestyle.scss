@@ -1,0 +1,81 @@
+.row {
+  align-items: center;
+  .container-About {
+    margin-top: 10%;
+    margin-left: 8%;
+    color: whitesmoke;
+    background-color: #1a5276;
+    padding: 3rem;
+    width: 50%;
+    border-radius: 1rem;
+  }
+  .container-art {
+    margin-top: 10%;
+    margin-left: 8%;
+    color: whitesmoke;
+    padding: 1rem;
+    width: 30%;
+    .graphic {
+      width: 110%;
+      margin-left: -10%;
+    }
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .row {
+    .container-About {
+      margin-top: 15%;
+      margin-left: 8%;
+      color: whitesmoke;
+      background-color: #1a5276;
+      padding: 1rem;
+      border-radius: 1rem;
+      width: 50%;
+      font-size: small;
+    }
+    .container-art {
+      margin-top: 15%;
+      margin-left: 8%;
+      color: whitesmoke;
+      padding: 1rem;
+      width: 30%;
+
+      .graphic {
+        width: 120%;
+        margin-left: -10%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .row {
+    .container-About {
+      margin-top: 20%;
+      margin-left: 8%;
+      color: whitesmoke;
+      background-color: #1a5276;
+      padding: 1rem;
+      width: 80%;
+      border-radius: 1rem;
+      font-size: small;
+      text-align: center;
+
+      h1 {
+        font-size: large;
+      }
+    }
+    .container-art {
+      margin-top: 5%;
+      margin-left: 8%;
+      color: whitesmoke;
+      padding: 1rem;
+      width: 100%;
+      .graphic {
+        width: 80%;
+        margin-left: 8%;
+      }
+    }
+  }
+}
