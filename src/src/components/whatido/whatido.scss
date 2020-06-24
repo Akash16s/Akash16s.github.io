@@ -27,6 +27,8 @@
   .skills {
     width: 10%;
     margin: 2% 2% 4% 2%;
+    border-radius: 0.4rem;
+    box-shadow: 4px 4px 20px black;
   }
 
   .skills-eloborated {
@@ -36,6 +38,7 @@
     padding: 2%;
     border-radius: 1rem;
     background-color: #a9cce3;
+    box-shadow: 4px 4px 50px black;
   }
 }
 
