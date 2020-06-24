@@ -30,7 +30,7 @@ function headerComponent() {
               <p>Contact Me</p>
             </a>
             <a
-              href="https://github.com/Akash16s"
+              href="https://medium.com/@akash16s"
               className="text-light"
               id="become"
             >
