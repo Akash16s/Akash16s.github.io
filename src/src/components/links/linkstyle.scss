@@ -1,0 +1,66 @@
+.Links {
+  margin-left: 20%;
+  margin-top: 10px;
+  background-color: #6ac1da;
+  padding: 10px;
+  padding-right: 25px;
+  border-radius: 5rem;
+  width: fit-content;
+  .icon {
+    width: 50px;
+    margin-left: 40px;
+  }
+
+  .icon:hover {
+    width: 70px;
+    transition: 0.5s;
+  }
+}
+
+.resume {
+  margin-left: 20%;
+  margin-top: 10px;
+  background-color: #6ac1da;
+  padding: 10px;
+  border-radius: 5rem;
+  width: fit-content;
+  .icon {
+    width: 50px;
+  }
+
+  .icon:hover {
+    width: 70px;
+    transition: 0.5s;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Links {
+    margin-left: 22%;
+    margin-top: 20px;
+    background-color: #6ac1da;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 5rem;
+    width: fit-content;
+    .icon {
+      width: 30px;
+      margin-left: 15px;
+    }
+    .icon:hover {
+      width: 50px;
+      transition: 0.5s;
+    }
+  }
+
+  .resume {
+    margin-left: 42%;
+    .icon {
+      width: 50px;
+    }
+
+    .icon:hover {
+      width: 70px;
+      transition: 0.5s;
+    }
+  }
+}

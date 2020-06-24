@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./homepagestyle.scss";
-import Logo from "../../assets/manOnTable.svg";
-
+import Links from "../links/linkcomponent";
+import Programmer from "../../assets/programmer.png";
 class homePageComponent extends Component {
   render() {
     return (
@@ -18,9 +18,11 @@ class homePageComponent extends Component {
             </span>
           </div>
           <div className="container-art">
-            <img className="graphic" src={Logo}></img>
+            <img className="graphic" src={Programmer} />
           </div>
         </div>
+
+        <Links />
       </div>
     );
   }

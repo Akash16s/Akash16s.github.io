@@ -1,102 +1,60 @@
-.NavContainer {
+#imageLogo {
+  height: 45px;
+  width: 45px;
+}
+
+#become {
+  background-color: rgba(25, 26, 25, 0.993);
+  width: fit-content;
+  padding: 10px 20px 0px 20px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
   position: fixed;
+  background-color: #1e628a !important;
   z-index: 2;
 
-  .Logo {
-    margin: 2em;
+  a {
+    text-decoration: none;
+    color: inherit;
 
-    .graphic {
-      width: 3rem;
-    }
-  }
-  .row {
-    align-items: flex-end;
-  }
-
-  .Nav-button {
-    align-self: center;
-    margin: 2em 1em;
-    .Nav-Button-Inside {
-      margin: 1rem;
-      margin-left: 1rem;
-      color: white;
-      .style {
-        color: whitesmoke;
-      }
-      .style:hover {
-        color: yellow;
-        text-decoration: none;
-      }
+    &:hover {
+      color: inherit;
     }
   }
 }
 
-@media screen and (max-width: 576px) {
-  .NavContainer {
-    position: fixed;
+@media only screen and (max-width: 990px) {
+  .myNavContainer {
+    width: 100%;
+    display: block;
+  }
+  .navbar {
     z-index: 2;
-
-    .Logo {
-      margin: 1em;
-      margin-left: 2rem !important;
-      .graphic {
-        width: 3rem;
-      }
-    }
-    .row {
-      align-items: flex-end;
-    }
-
-    .Nav-button {
-      margin: 0.5rem 0.5rem 0.5rem !important;
-      .Nav-Button-Inside {
-        margin: 0.6rem;
-        margin-left: 0.6rem;
-        color: white;
-        .style {
-          color: whitesmoke;
-          font-size: 1rem;
-        }
-        .style:hover {
-          color: yellow;
-          text-decoration: none;
-        }
-      }
-    }
   }
 }
 
-@media screen and (max-width: 300px) {
-  .NavContainer {
-    position: fixed;
-    z-index: 2;
-
-    .Logo {
-      margin: 1em;
-      margin-left: 3rem !important;
-      .graphic {
-        width: 3rem;
-      }
-    }
-    .row {
-      align-items: flex-end;
-    }
-
-    .Nav-button {
-      margin: 0.5rem 0.5rem 0.5rem !important;
-      .Nav-Button-Inside {
-        margin: 0.5rem;
-        margin-left: 0.5rem;
-        color: white;
-        .style {
-          color: whitesmoke;
-          font-size: 0.5rem;
-        }
-        .style:hover {
-          color: yellow;
-          text-decoration: none;
-        }
-      }
-    }
+@media (max-width: 100px) {
+  .logoHeader {
+    margin-left: 10%;
   }
+  .navbar {
+    z-index: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .logoHeader {
+    margin-left: 25%;
+  }
+  .navbar {
+    z-index: 2;
+  }
+}
+
+.text-light {
+  margin-left: 20px;
 }

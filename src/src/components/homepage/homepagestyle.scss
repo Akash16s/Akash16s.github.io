@@ -1,5 +1,6 @@
 .row {
   align-items: center;
+  margin-right: 1px;
   .container-About {
     margin-top: 10%;
     margin-left: 8%;
@@ -52,8 +53,8 @@
 @media screen and (max-width: 576px) {
   .row {
     .container-About {
-      margin-top: 20%;
-      margin-left: 8%;
+      margin-top: 30%;
+      margin-left: 12%;
       color: whitesmoke;
       background-color: #1a5276;
       padding: 1rem;

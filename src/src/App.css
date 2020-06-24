@@ -1,5 +1,4 @@
 .App {
-  position: fixed;
   padding: 0;
   margin: 0;
 
@@ -8,6 +7,6 @@
 
   width: 100%;
   height: 100%;
-  background: #154360;
+  background-color: #154360;
   font-family: "Montserrat Alternates", sans-serif;
 }

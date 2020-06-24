@@ -1,42 +1,47 @@
 import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
 import "./headerstyle.scss";
 import Logo from "../../logo.svg";
 import { Link } from "react-router-dom";
 function headerComponent() {
   return (
     <div className="Container NavContainer">
-      <div className="row">
-        <div className="Logo">
-          <a href="/">
-            <img className="graphic" src={Logo}></img>
-          </a>
-        </div>
-        {/* <div className="Nav-button">
-          <div className="Nav-Button-Inside">
-            <Link className="style" to="/">
-              Home
-            </Link>
-          </div>
-        </div> */}
-        <div className="Nav-button">
-          <div className="Nav-Button-Inside">
+      <Navbar bg="primary" expand="lg" variant="dark">
+        <Navbar.Brand className="logoHeader" href="home">
+          <Link to="/">
+            <img src={Logo} id="imageLogo" alt="logo" />
+          </Link>
+        </Navbar.Brand>
+
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          style={{ border: "none", outline: 0 }}
+        />
+
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto mt-3 mt-lg-0">
+            <Nav.Link /* href="home" */ className="text-light">
+              <Link to="/">Home</Link>
+            </Nav.Link>
+            <Nav.Link /* href="home" */ className="text-light">
+              <Link to="#About-Me">About Me</Link>
+            </Nav.Link>
+            <Nav.Link /* href="home" */ className="text-light">
+              <Link to="#projects">Projects</Link>
+            </Nav.Link>
+            <Nav.Link /* href="home" */ className="text-light">
+              <Link to="#Contact-Me">Contact Me</Link>
+            </Nav.Link>
             <a
-              className="style"
-              href="https://medium.com/@akash16s"
-              target="_blank"
+              href="https://github.com/Akash16s"
+              className="text-light"
+              id="become"
             >
-              Blog
+              <p>Blog</p>
             </a>
-          </div>
-        </div>
-        <div className="Nav-button">
-          <div className="Nav-Button-Inside">
-            <Link className="style" to="/">
-              Contact Me
-            </Link>
-          </div>
-        </div>
-      </div>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }
