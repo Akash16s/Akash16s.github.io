@@ -2,23 +2,39 @@
   align-items: center;
   margin-right: 1px;
   .container-About {
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 8%;
-    color: whitesmoke;
     background-color: #1a5276;
-    padding: 3rem;
+    color: whitesmoke;
+    padding: 2rem;
     width: 50%;
     border-radius: 1rem;
   }
+  .container-About:hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: 1s ease-in-out;
+  }
   .container-art {
     margin-top: 10%;
-    margin-left: 8%;
+    margin-left: 5%;
     color: whitesmoke;
     padding: 1rem;
     width: 30%;
     .graphic {
       width: 110%;
       margin-left: -10%;
+      margin-bottom: 1rem;
+    }
+    animation: animation 3s;
+  }
+
+  @keyframes animation {
+    0% {
+      margin-left: 12%;
+    }
+    100% {
+      margin-left: 5%;
     }
   }
 }

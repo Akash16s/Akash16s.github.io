@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./homepagestyle.scss";
 import Links from "../links/linkcomponent";
+import WhatIdo from "../whatido/whatido";
 import Programmer from "../../assets/programmer.png";
+import Projects from "../../components/projects/projectscomponent";
 class homePageComponent extends Component {
   render() {
     return (
@@ -23,6 +25,8 @@ class homePageComponent extends Component {
         </div>
 
         <Links />
+        <WhatIdo />
+        <Projects />
       </div>
     );
   }
