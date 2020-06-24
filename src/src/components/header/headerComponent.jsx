@@ -20,18 +20,15 @@ function headerComponent() {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto mt-3 mt-lg-0">
-            <Nav.Link /* href="home" */ className="text-light">
-              <Link to="/">Home</Link>
-            </Nav.Link>
-            <Nav.Link /* href="home" */ className="text-light">
-              <Link to="#About-Me">About Me</Link>
-            </Nav.Link>
-            <Nav.Link /* href="home" */ className="text-light">
-              <Link to="#projects">Projects</Link>
-            </Nav.Link>
-            <Nav.Link /* href="home" */ className="text-light">
-              <Link to="#Contact-Me">Contact Me</Link>
-            </Nav.Link>
+            <a href="#aboutme" className="text-light">
+              <p>About Me</p>
+            </a>
+            <a href="#projects" className="text-light">
+              <p>Projects</p>
+            </a>
+            <a href="#contact-me" className="text-light">
+              <p>Contact Me</p>
+            </a>
             <a
               href="https://github.com/Akash16s"
               className="text-light"

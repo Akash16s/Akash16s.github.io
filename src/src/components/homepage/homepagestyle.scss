@@ -26,15 +26,10 @@
       margin-left: -10%;
       margin-bottom: 1rem;
     }
-    animation: animation 3s;
-  }
 
-  @keyframes animation {
-    0% {
-      margin-left: 12%;
-    }
-    100% {
-      margin-left: 5%;
+    .graphic:hover {
+      margin-left: -20%;
+      transition: 0.8s;
     }
   }
 }

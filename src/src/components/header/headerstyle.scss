@@ -9,6 +9,7 @@
   padding: 10px 20px 0px 20px;
   border-radius: 10px;
   align-items: center;
+  padding-top: 1rem;
 }
 
 .navbar {
@@ -16,6 +17,10 @@
   position: fixed;
   background-color: #1e628a !important;
   z-index: 2;
+
+  .text-light {
+    padding-top: 1rem;
+  }
 
   a {
     text-decoration: none;
