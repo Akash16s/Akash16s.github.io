@@ -10,7 +10,7 @@ function achiveblock(props) {
         <h3>{props.val.Title}</h3>
         <p>{props.val.Desc}</p>
         <a href={props.val.link} className="btn btn-primary">
-          Link
+          Know More
         </a>
       </div>
     </Fade>

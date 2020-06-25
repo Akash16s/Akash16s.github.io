@@ -64,7 +64,7 @@ function projectscomponent() {
                 <span>{dataApp.description}</span>
                 <br />
                 <a id="link" className="btn btn-primary " href={dataApp.link}>
-                  Link
+                  Know More
                 </a>
               </div>
               <div className="col-image col">
