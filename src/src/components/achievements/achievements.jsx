@@ -32,7 +32,7 @@ class achievements extends Component {
       {
         image: "https://miro.medium.com/max/700/1*sDHp0R3cYVgCNToYNE79Vg.jpeg",
         Title: "Analytics Vidhya",
-        Desc: "Under Top 10 at IIITD Hack 2019",
+        Desc: "Article got featured on Analytics Vidhya Medium Publication",
         link:
           "https://medium.com/analytics-vidhya/how-to-implement-otp-based-authentication-on-django-rest-framework-185ae8032f07?source=your_stories_page---------------------------",
       },
