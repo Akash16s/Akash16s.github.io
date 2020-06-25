@@ -33,12 +33,13 @@
 }
 
 @media only screen and (max-width: 990px) {
+  #imageLogo {
+    height: 25px;
+    width: 25px;
+  }
   .myNavContainer {
     width: 100%;
     display: block;
-  }
-  .navbar {
-    z-index: 2;
   }
 }
 
@@ -46,17 +47,11 @@
   .logoHeader {
     margin-left: 10%;
   }
-  .navbar {
-    z-index: 2;
-  }
 }
 
 @media (min-width: 900px) {
   .logoHeader {
     margin-left: 25%;
-  }
-  .navbar {
-    z-index: 2;
   }
 }
 
