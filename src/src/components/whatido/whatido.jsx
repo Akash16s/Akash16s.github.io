@@ -1,6 +1,8 @@
 import React from "react";
 import "./whatido.scss";
 import Programmer from "../../assets/programmer.jpg";
+import { Fade } from "react-reveal";
+
 function whatido() {
   const state = [
     "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
@@ -27,31 +29,37 @@ function whatido() {
   return (
     <div className="WhatIdo">
       <div className="row">
-        <div className="col-md-6 col-sm-12 col-image">
-          <img src={Programmer} className="image"></img>
-        </div>
+        <Fade left duration={1000} distance="20px">
+          <div className="col-md-6 col-sm-12 col-image">
+            <img src={Programmer} className="image" alt="rep"></img>
+          </div>
+        </Fade>
         <div className="col-md-6 col-sm-12 col-text">
           <h1>What I love to do?</h1>
           <br />
           <span>I love to learn about new technologies and implement it.</span>
           <div className="row">
             {state.map((value) => (
-              <img className="skills" src={value} alt="skill"></img>
+              <Fade right duration={1000} distance="20px">
+                <img className="skills" src={value} alt="skill"></img>
+              </Fade>
             ))}
           </div>
         </div>
-        <div className="skills-eloborated">
-          {skillEloab.map((value) => (
-            <span>
-              <span role="img" aria-describedby>
-                ✨
+        <Fade bottom duration={1000} distance="20px">
+          <div className="skills-eloborated">
+            {skillEloab.map((value) => (
+              <span>
+                <span role="img" aria-label>
+                  ✨
+                </span>
+                {value}
+                <br />
+                <br />
               </span>
-              {value}
-              <br />
-              <br />
-            </span>
-          ))}
-        </div>
+            ))}
+          </div>
+        </Fade>
       </div>
     </div>
   );

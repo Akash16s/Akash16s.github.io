@@ -4,6 +4,7 @@ import Wiehack from "../../assets/wiehack.PNG";
 import SSDr from "../../assets/ssdr.PNG";
 import Meto from "../../assets/meto.jpeg";
 import Minedenim from "../../assets/Minedenim.PNG";
+import { Fade } from "react-reveal";
 
 function projectscomponent() {
   const data = [
@@ -54,23 +55,25 @@ function projectscomponent() {
   return (
     <div className="projects" id="projects">
       <h1>Projects</h1>
-      {data.map((dataApp) => (
-        <div className="project">
-          <div className="row">
-            <div className="col-desc col">
-              <h3>{dataApp.name}</h3>
-              <span>{dataApp.description}</span>
-              <br />
-              <a id="link" className="btn btn-primary " href={dataApp.link}>
-                Link
-              </a>
-            </div>
-            <div className="col-image col">
-              <img className="projectImage" src={dataApp.image} alt="image" />
+      <Fade top duration={1000} distance="20px">
+        {data.map((dataApp) => (
+          <div className="project">
+            <div className="row">
+              <div className="col-desc col">
+                <h3>{dataApp.name}</h3>
+                <span>{dataApp.description}</span>
+                <br />
+                <a id="link" className="btn btn-primary " href={dataApp.link}>
+                  Link
+                </a>
+              </div>
+              <div className="col-image col">
+                <img className="projectImage" src={dataApp.image} alt="imss" />
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </Fade>
 
       <div className="row">
         <div className="col-12 more-proj">
