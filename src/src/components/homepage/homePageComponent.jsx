@@ -17,10 +17,14 @@ class homePageComponent extends Component {
               <h1>Hey!! Akash Here,</h1>
               <br />
               <span className="Aboutme1" id="aboutme">
-                I am a Full Stack Developer.
-                <br />I love to engineer and build Amazing products.
+                I am a Full Stack Developer | Freelancer | Blockchain Enthusiast
+                <br />I love to engineer and build Amazing products
                 <br />
-                <br /> <i>Currently I am General Secretary at BVPIEEE</i>
+                <br />
+                <i>
+                  Currently I am General Secretary at BVPIEEE and Open For
+                  Opportunities
+                </i>
               </span>
             </div>
             <div className="container-art">

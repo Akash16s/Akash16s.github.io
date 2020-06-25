@@ -18,6 +18,8 @@ function whatido() {
     "https://www.docker.com/sites/default/files/d8/2019-07/Moby-logo.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/DigitalOcean_logo.svg/1200px-DigitalOcean_logo.svg.png",
     "https://ktconnections.com/images/easyblog_articles/658/microsoft-azure-500x500.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Windows_logo_%E2%80%93_2012_%28dark_blue%29.svg/1200px-Windows_logo_%E2%80%93_2012_%28dark_blue%29.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tux-simple.svg/2000px-Tux-simple.svg.png",
   ];
 
   const skillEloab = [
