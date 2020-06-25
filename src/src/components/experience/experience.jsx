@@ -52,7 +52,7 @@ class experience extends Component {
   render() {
     return (
       <div>
-        <div className="Experience">
+        <div className="Experience" id="Experience">
           <h1>Experience</h1>
           <main>
             <Fade bottom duration={1000} distance="20px">
