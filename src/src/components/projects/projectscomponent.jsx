@@ -24,13 +24,6 @@ function projectscomponent() {
         "https://storage.googleapis.com/devfolio/hackathons/8b56e69b9abf4e1bb60c27a1372c580b/projects/4295ab8dad734d51b71996f28d849992/pic2pf73zjxy.png",
     },
     {
-      name: "Meto (IIITD Hack)",
-      description:
-        "Developed a fully-fledged System, having target of capturing selfie and predicting the user’s BMI.",
-      link: "https://devfolio.co/submissions/meto",
-      image: Meto,
-    },
-    {
       name: "Face-Recognition and Attendance: BHEL",
       description:
         "Developed a deployable system in which one can pass multiple arguments and perform facial Recognition and Attendance.",
@@ -50,6 +43,13 @@ function projectscomponent() {
         " A versatile robot having the capability of high manoeuvrability, panoramic view, depth mapping, and human detection",
       link: "https://github.com/Akash16s/SSDr",
       image: SSDr,
+    },
+    {
+      name: "Meto (IIITD Hack)",
+      description:
+        "Developed a fully-fledged System, having target of capturing selfie and predicting the user’s BMI.",
+      link: "https://devfolio.co/submissions/meto",
+      image: Meto,
     },
   ];
   return (

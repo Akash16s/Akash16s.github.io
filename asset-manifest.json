@@ -1,33 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.e260cfb5.chunk.css",
-    "main.js": "/static/js/main.66dbc1c1.chunk.js",
-    "main.js.map": "/static/js/main.66dbc1c1.chunk.js.map",
+    "main.css": "/static/css/main.14274e6a.chunk.css",
+    "main.js": "/static/js/main.a7668166.chunk.js",
+    "main.js.map": "/static/js/main.a7668166.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.92bc3d03.chunk.js": "/static/js/2.92bc3d03.chunk.js",
-    "static/js/2.92bc3d03.chunk.js.map": "/static/js/2.92bc3d03.chunk.js.map",
+    "static/js/2.0fe46fbe.chunk.js": "/static/js/2.0fe46fbe.chunk.js",
+    "static/js/2.0fe46fbe.chunk.js.map": "/static/js/2.0fe46fbe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d5824f95787aa079526413474173c35f.js": "/precache-manifest.d5824f95787aa079526413474173c35f.js",
+    "precache-manifest.429753cf2bd6f95e0c9fe95af770e570.js": "/precache-manifest.429753cf2bd6f95e0c9fe95af770e570.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.e260cfb5.chunk.css.map": "/static/css/main.e260cfb5.chunk.css.map",
-    "static/js/2.92bc3d03.chunk.js.LICENSE.txt": "/static/js/2.92bc3d03.chunk.js.LICENSE.txt",
+    "static/css/main.14274e6a.chunk.css.map": "/static/css/main.14274e6a.chunk.css.map",
+    "static/js/2.0fe46fbe.chunk.js.LICENSE.txt": "/static/js/2.0fe46fbe.chunk.js.LICENSE.txt",
     "static/media/Minedenim.PNG": "/static/media/Minedenim.1f1ca040.PNG",
     "static/media/Resume.pdf": "/static/media/Resume.95e9f050.pdf",
+    "static/media/akash.jpeg": "/static/media/akash.5a3de0f5.jpeg",
+    "static/media/blog.gif": "/static/media/blog.7c0d80ea.gif",
     "static/media/logo.svg": "/static/media/logo.af0a93fc.svg",
     "static/media/meto.jpeg": "/static/media/meto.17809f6a.jpeg",
+    "static/media/msit.jpeg": "/static/media/msit.03eda1d2.jpeg",
     "static/media/programmer.jpg": "/static/media/programmer.1c4a9c19.jpg",
     "static/media/programmer.png": "/static/media/programmer.3bb6ae78.png",
     "static/media/ssdr.PNG": "/static/media/ssdr.1060b8cd.PNG",
+    "static/media/technovation.jpeg": "/static/media/technovation.50b94446.jpeg",
     "static/media/wiehack.PNG": "/static/media/wiehack.6f92238b.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.92bc3d03.chunk.js",
-    "static/css/main.e260cfb5.chunk.css",
-    "static/js/main.66dbc1c1.chunk.js"
+    "static/js/2.0fe46fbe.chunk.js",
+    "static/css/main.14274e6a.chunk.css",
+    "static/js/main.a7668166.chunk.js"
   ]
 }

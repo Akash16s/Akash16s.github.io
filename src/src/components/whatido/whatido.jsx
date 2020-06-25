@@ -27,6 +27,7 @@ function whatido() {
     "Can build Highly interactive web apps",
     "Build RESTFul API service",
     "Can implement Computer Vision Functionality",
+    "Develop production ready applications and servers",
   ];
   return (
     <div className="WhatIdo">

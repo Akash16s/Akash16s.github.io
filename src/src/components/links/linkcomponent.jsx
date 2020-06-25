@@ -7,7 +7,7 @@ function linkcomponent() {
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="row">
-        <div className="row Links">
+        <div className="Links">
           <a href="https://github.com/Akash16s">
             <img
               src="https://image.flaticon.com/icons/svg/2111/2111432.svg"
@@ -34,6 +34,13 @@ function linkcomponent() {
               src="https://image.flaticon.com/icons/svg/1384/1384046.svg"
               className="icon"
               alt="LinkedIn"
+            />
+          </a>
+          <a href="mailto:akashs1698@gmail.com">
+            <img
+              src="https://image.flaticon.com/icons/svg/561/561188.svg"
+              className="icon"
+              alt="email"
             />
           </a>
         </div>

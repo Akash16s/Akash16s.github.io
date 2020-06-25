@@ -29,6 +29,9 @@ function headerComponent() {
             <a href="#Experience" className="text-light">
               <p>Experience</p>
             </a>
+            <a href="#Achievements" className="text-light">
+              <p>Achievements</p>
+            </a>
             <a href="#contact-me" className="text-light">
               <p>Contact Me</p>
             </a>

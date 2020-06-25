@@ -5,6 +5,9 @@ import WhatIdo from "../whatido/whatido";
 import Programmer from "../../assets/programmer.png";
 import Projects from "../../components/projects/projectscomponent";
 import Experience from "../../components/experience/experience";
+import Achievements from "../../components/achievements/achievements";
+import Blog from "../../components/Blogs/blogcomponent";
+import Contact from "../../components/contact/contactme";
 import { Fade } from "react-reveal";
 
 class homePageComponent extends Component {
@@ -21,10 +24,8 @@ class homePageComponent extends Component {
                 <br />I love to engineer and build Amazing products
                 <br />
                 <br />
-                <i>
-                  Currently I am General Secretary at BVPIEEE and Open For
-                  Opportunities
-                </i>
+                Currently I am General Secretary at BVPIEEE | I am Open For
+                Opportunities
               </span>
             </div>
             <div className="container-art">
@@ -36,6 +37,9 @@ class homePageComponent extends Component {
           <WhatIdo />
           <Projects />
           <Experience />
+          <Achievements />
+          <Blog />
+          <Contact />
         </div>
       </Fade>
     );
