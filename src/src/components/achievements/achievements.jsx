@@ -15,13 +15,13 @@ class achievements extends Component {
         image: MSIT,
         Title: "Technical Project Exhibition",
         Desc: "First Prize at Technical Project Exhibition by IEEE MSIT",
-        link: "#Achievements",
+        link: "#",
       },
       {
         image: Technovation,
         Title: "Technocation Fervor X",
         Desc: "Second prize at Technovation in Fervour X by BVPIEEE",
-        link: "#Achievements",
+        link: "#",
       },
       //   {
       //     image: Meto,

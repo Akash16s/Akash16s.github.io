@@ -9,9 +9,13 @@ function achiveblock(props) {
         <img className="image" src={props.val.image} alt="imgss" />
         <h3>{props.val.Title}</h3>
         <p>{props.val.Desc}</p>
-        <a href={props.val.link} className="btn btn-primary">
-          Know More
-        </a>
+        {props.val.link != "#" ? (
+          <a href={props.val.link} className="btn btn-primary">
+            Know More
+          </a>
+        ) : (
+          <div></div>
+        )}
       </div>
     </Fade>
   );
