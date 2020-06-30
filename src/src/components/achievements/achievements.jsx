@@ -51,6 +51,14 @@ class achievements extends Component {
         link:
           "https://drive.google.com/file/d/1TQ4JfzkLeGNUEs7rhELofmrIEtgqJods/view?usp=sharing",
       },
+      {
+        image:
+          "https://68.media.tumblr.com/92a71d62ace9940f8ddd540400444fc4/tumblr_inline_mppo32jFBC1qz4rgp.png",
+        Title: "Blockchain Basics",
+        Desc: "Course by University of Buffalo",
+        link:
+          "https://drive.google.com/file/d/1c3Wru5q8aUT-r7zajBrhTwjX9vapsnT2/view?usp=sharing",
+      },
     ];
   }
 
