@@ -10,7 +10,7 @@ class experience extends Component {
       {
         title: "System Admin Intern",
         Company: "Roboiotics LLP",
-        date: "Feb 2020 – April 2020",
+        date: "May 2020 – June 2020",
         location: "New Delhi, India",
         details: [
           "Website Development",
