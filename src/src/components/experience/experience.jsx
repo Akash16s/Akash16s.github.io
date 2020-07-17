@@ -34,9 +34,9 @@ class experience extends Component {
         ],
       },
       {
-        title: "General Secretary (Leadership Experience)",
+        title: "Joint Secretary (Leadership Experience)",
         Company: "BVPIEEE",
-        date: "July 2019 – Present ",
+        date: "July 2019 – July 2020",
         location: "New Delhi, India",
         details: [
           "Society and Event Management",

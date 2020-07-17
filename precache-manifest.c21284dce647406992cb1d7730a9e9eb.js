@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e33bcd80d01f67abafe5c8dafb7a093c",
+    "revision": "835414fe671f8e06e319529b3571a66e",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "452682b72ea6f96cac8e",
+    "revision": "b39326892b2b2feb907c",
     "url": "/static/css/main.b2ba9f8c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0fe46fbe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "452682b72ea6f96cac8e",
-    "url": "/static/js/main.c36f763f.chunk.js"
+    "revision": "b39326892b2b2feb907c",
+    "url": "/static/js/main.fd50efb9.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Minedenim.1f1ca040.PNG"
   },
   {
-    "revision": "d2b35c1504a209bccee8f7845aa82149",
-    "url": "/static/media/Resume.d2b35c15.pdf"
+    "revision": "d8a5ed1753183a1460c4a7b7a7d8af3b",
+    "url": "/static/media/Resume.d8a5ed17.pdf"
   },
   {
     "revision": "5a3de0f5318fd036e2e933e436c7cb76",
