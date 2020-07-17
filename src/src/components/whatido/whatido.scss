@@ -41,6 +41,11 @@
     background-color: #a9cce3;
     box-shadow: 4px 4px 50px black;
   }
+
+  .embed-responsive {
+    border-radius: 10px;
+    margin-bottom: 4%;
+  }
 }
 
 @media screen and (max-width: 786px) {
@@ -62,6 +67,11 @@
     .skills-eloborated {
       margin: 3%;
       margin-left: 33px;
+    }
+
+    .embed-responsive {
+      margin-left: 25px;
+      margin-bottom: 2px;
     }
   }
 }
