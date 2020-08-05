@@ -8,6 +8,18 @@ class experience extends Component {
 
     this.state = [
       {
+        title: "Full-Stack Developer Intern",
+        Company: "Unbiased.cc",
+        date: "July 2020 – Present",
+        location: "Remote(Sewden)",
+        details: [
+          "ReactWeb-App Development",
+          "NodeJS Server Development",
+          "Firebase Deployment, Firestore, Firebase Functions",
+          "Serverless Implementation",
+        ],
+      },
+      {
         title: "System Admin Intern",
         Company: "Roboiotics LLP",
         date: "May 2020 – June 2020",

@@ -20,6 +20,7 @@ function whatido() {
     "https://ktconnections.com/images/easyblog_articles/658/microsoft-azure-500x500.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Windows_logo_%E2%80%93_2012_%28dark_blue%29.svg/1200px-Windows_logo_%E2%80%93_2012_%28dark_blue%29.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tux-simple.svg/2000px-Tux-simple.svg.png",
+    "https://nodejs.org/static/images/logo.svg",
   ];
 
   const skillEloab = [
