@@ -27,9 +27,10 @@ class homePageComponent extends Component {
                 </strong>
                 <br />
                 <br />
-                Currently I am a pre-final year Student at Bharati Vidyapeeth's
-                College of Engineering, New Delhi and General Secretary at
-                BVPIEEE <br /> <strong>I am Open For Opportunities</strong>
+                Currently I am a final year Student at Bharati Vidyapeeth's
+                College of Engineering, New Delhi and Full-Stack Developer
+                Intern at Unbiased.cc <br />
+                {/* <strong>I am Open For Opportunities</strong> */}
               </span>
             </div>
             <div className="container-art">
